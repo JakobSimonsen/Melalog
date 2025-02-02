@@ -1,0 +1,15 @@
+# Remove things not needed in the repo
+.DS_Store
+.env
+.vscode
+.venv
+
+# Compiled models that exist on HuggingFace
+freakyfreckles/
+freekyfrekkles/
+
+# Docker data volumes
+tgi-data/
+datasets/
+
+*.parquet
