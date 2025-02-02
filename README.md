@@ -56,3 +56,12 @@ While the classifier model responds well to the test pictures from the dataset i
 The frontend is fairly basic but functional; there is little validation going here, and a production version should check that everything going to the backend is actually the data we need.
 
 Using LoRA adapters with fine-tuning data is pretty efficient, since we can just swap the adapter model when new training is done.
+
+### Future developments
+
+1. Introduce a larger dataset curated by health professionals
+2. Verify the results against human predictions for better tuning
+3. Logging images to be able to build a model for skin lesions evolution over time
+4. Weighting the questionnaire for better end prediction to able to see a more nuanced picture
+5. Enable Chat functionality with the Llama 3.3 model for eventual question from the patient
+    
