@@ -1,6 +1,7 @@
 # "Melalog" Melanoma Detection Tool
 
 ## Overview
+#### Disclaimer: This project was created during Meta's Llama Hackathon in Oslo and will not be maintained.
 
 This project aims to develop a tool for detecting melanoma, a type of skin cancer, using a deep learning model. The tool will be designed to analyze skin lesion images and provide accurate diagnoses.
 
